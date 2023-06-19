@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+	text-align: center;
+  margin: 1rem 0px ;
+}
+h2{
+	margin: 1rem 0px;
+
+	text-align: center;
+}
+/* .container{
+	display: flex; }*/
+
+.tribute {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	max-width: 88rem;
+	margin: 0px auto;
+	background: white;
+	color: black;
+	align-items: center;
+	padding: 00px 0px 0px 1em;
+  }
+  .tribute img {
+		max-width: 100%;}
+		.tribute blockquote {
+			text-align: center;
+			font-size: 3rem;
+		  }
+		  section{
+			margin: 2rem auto;
+  padding: 0px 0.5rem;
+  max-width: 40rem;
+			
+		  }
+		  heading{
+			margin-bottom: 10rem;
+			font-size: 3rem;
+			line-height: 2 ;
+			font-weight: bold;
+		  }
+		  .steve{
+				font-size: 1.2rem;
+				line-height: 1.4;
+		  }
+		  hr{
+			margin-top: 2rem;
+		  }
+		
+
+		 
